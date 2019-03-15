@@ -152,7 +152,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio";
+  grid-template-areas: 'bioimage bio bio';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -272,7 +272,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio";
+    grid-template-areas: 'bioimage' 'bio';
     grid-template-columns: 1fr; }
   .job {
     margin: auto; }
